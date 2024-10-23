@@ -17,3 +17,10 @@ app.get('/about',function(req,res){
 app.get("/users/:userid/books/:bookid",function(req,res){
     res.send(req.params)
 })
+app.get("/getstudents", function(req,res){
+    studentdata={}
+    fs.readFile(__dirname + "/" + "student.json", "utf8", function(err,data){
+        console.log(data);
+        res.json({"status":true,"status-code":200,"requested-at":req.localtime,"requrl":req.url,"request-method":req.method,"studentdata":JSON.parse(data)})
+    })
+})

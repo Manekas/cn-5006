@@ -12,5 +12,12 @@
         "qualification": "HNC",
         "email" : "ABC@gm.com",
         "id" : 2
+    },
+    "student3" : {
+        "name": "Emily",
+        "age" : "25",
+        "qualification": "A-level",
+        "email" : "email@gm.com",
+        "id" : 3
     }
 }
