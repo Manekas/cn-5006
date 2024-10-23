@@ -11,3 +11,9 @@ app.get('/', function(req,res){
 app.listen(3000, function(){
     console.log("server is running on port 3000")
 })
+app.get('/about',function(req,res){
+    res.send("this is a basic express application")
+})
+app.get("/users/:userid/books/:bookid",function(req,res){
+    res.send(req.params)
+})
