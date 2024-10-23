@@ -6,14 +6,14 @@
         "email" : "std123@gm.com",
         "id" : 1
     },
-    "student2" : {
+    "Student2" : {
         "name": "David",
         "age" : "23",
         "qualification": "HNC",
         "email" : "ABC@gm.com",
         "id" : 2
     },
-    "student3" : {
+    "Student3" : {
         "name": "Emily",
         "age" : "25",
         "qualification": "A-level",
